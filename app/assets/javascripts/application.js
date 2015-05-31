@@ -14,3 +14,50 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+
+
+  $('.delete').click(function(e){
+    e.preventDefault();
+    console.log("hello");
+      var $target = $(e.target);
+      var $article = $target.parent().parent();
+      var id = $article.attr('id');
+
+        var remove = {
+          alert('Grumpy Cat Says NO!!!');
+          url: "/posts/" + id,
+          type: 'DELETE',
+            success:function(data) {
+              $article.remove();
+              console.log('SUCCESS');
+            },
+            error:function(data){
+              console.log('ERROR');
+            }
+        };
+        $.ajax(remove);
+  })
+
+  $('#posts').on('submit', function(e){
+    e.preventDefault();
+      var $form = $(e.target);
+      var data = $form.serialize();
+
+      var submit = {
+        url: '/posts',
+        type: 'POST',
+        data: data,
+        success:function(data) {
+          var $newArticle = $(data).find('article').last();
+          $('.post-container').append($newArticle)
+        },
+        error:function(data){
+          console.log("Error");
+        }
+      };
+      $.ajax(submit);
+  })
+
+})// End

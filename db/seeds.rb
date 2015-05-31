@@ -1,6 +1,4 @@
-module Seed
 
-  def self.run
     20.times do
       post = Post.create( title: Faker::Company.catch_phrase,
                    username: Faker::Internet.user_name,
@@ -13,6 +11,5 @@ module Seed
       end
 
     end
-  end
 
-end
+
