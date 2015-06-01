@@ -7,17 +7,9 @@ class PostsController < ApplicationController
     @post = Post.create( title: params[:title],
                username: Faker::Internet.user_name,
                comment_count: rand(1000) )
-    if @post.save
-      redirect_to root_path
-    else
-      render status: 500, text: "D'oh!"
-    end
+    @post.save
+    render json: @post.to_json
   end
-
-  # private
-  # def post_params
-  #   params.require(:post).permit(:title, :username, :comment_count)
-  # end
 
   def vote
     @post = Post.find(params[:id])
@@ -32,6 +24,6 @@ class PostsController < ApplicationController
   def destroy
     @post = Post.find(params[:id])
     @post.destroy
-    redirect_to root_path
+    render json: @post.to_json
   end
 end

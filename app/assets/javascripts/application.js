@@ -18,23 +18,19 @@
 $(document).ready(function(){
 
 
-  $('.delete').click(function(e){
+  $(document).on('click', '.delete', function(e){
     e.preventDefault();
-    console.log("hello");
       var $target = $(e.target);
       var $article = $target.parent().parent();
       var id = $article.attr('id');
 
         var remove = {
-          alert('Grumpy Cat Says NO!!!');
           url: "/posts/" + id,
           type: 'DELETE',
             success:function(data) {
               $article.remove();
-              console.log('SUCCESS');
             },
             error:function(data){
-              console.log('ERROR');
             }
         };
         $.ajax(remove);
@@ -50,8 +46,20 @@ $(document).ready(function(){
         type: 'POST',
         data: data,
         success:function(data) {
-          var $newArticle = $(data).find('article').last();
-          $('.post-container').append($newArticle)
+          var $clone = $('article').last().clone()
+          console.log(data)
+          $clone.attr('id', data.id)
+          $clone.attr('href', 'posts/' + data.id + '/vote');
+          $clone.find('h2 a').attr('href','/posts/' + data.id);
+          $clone.find('h2 a').text(data.title);
+          $clone.find('p span[class="points"]').text(data.points);
+          $clone.find('p span[class="username"]').text(data.username);
+          $clone.find('p span[class="timestamp"]').text(data.timestamp);
+          $clone.find('p span[class="comment-count"]').text(data.comment_count);
+          $clone.find('p a').attr('href', '/posts/' + data.id);
+          $('.post-container').append($clone)
+
+
         },
         error:function(data){
           console.log("Error");
