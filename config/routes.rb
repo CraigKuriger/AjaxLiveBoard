@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :votes
   root to: 'posts#index'
 
+  get '/posts/:id/vote', to: 'posts#vote_for'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

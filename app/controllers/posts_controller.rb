@@ -11,14 +11,13 @@ class PostsController < ApplicationController
     render json: @post.to_json
   end
 
-  def vote
+  def vote_for
     @post = Post.find(params[:id])
-  if @post.votes.create(value: 1)
-    content_type :json
-    { vote_counter: post.votes.count}.to_json
-  else
-    status 403
-  end
+    @post.votes.create(value: 1)
+    @post.save
+
+    { vote_counter: @post.votes.count}.to_json
+    render json: @post.to_json
   end
 
   def destroy

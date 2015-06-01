@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 
 $(document).ready(function(){
@@ -57,9 +56,7 @@ $(document).ready(function(){
           $clone.find('p span[class="timestamp"]').text(data.timestamp);
           $clone.find('p span[class="comment-count"]').text(data.comment_count);
           $clone.find('p a').attr('href', '/posts/' + data.id);
-          $('.post-container').append($clone)
-
-
+          $('.post-container').append($clone);
         },
         error:function(data){
           console.log("Error");
@@ -67,5 +64,26 @@ $(document).ready(function(){
       };
       $.ajax(submit);
   })
+
+$('.post-container').on('click', '.vote-button', function(e) {
+  e.preventDefault();
+    var $target = $(e.target);
+    var article = $target.parent();
+    var id = article.attr('id');
+
+    var options = {
+      url: "/posts/" + id + "/vote",
+      type: 'GET',
+      success:function(data) {
+        var votes = data.vote_counter
+        var $points = article.find('.points')
+        $points.html(votes);
+        console.log(votes)
+      },
+      error:function(data) {
+      }
+    };
+    $.ajax(options);
+});
 
 })// End
