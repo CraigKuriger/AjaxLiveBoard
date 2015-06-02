@@ -65,22 +65,20 @@ $(document).ready(function(){
       $.ajax(submit);
   })
 
-$('.post-container').on('click', '.vote-button', function(e) {
+$(document).on('click', '.vote-button', function(e) {
   e.preventDefault();
     var $target = $(e.target);
     var article = $target.parent();
     var id = article.attr('id');
-
+    var $points = $(article.find('span[class="points"]')[0]);
     var options = {
       url: "/posts/" + id + "/vote",
       type: 'GET',
       success:function(data) {
-        var votes = data.vote_counter
-        var $points = article.find('.points')
-        $points.html(votes);
-        console.log(votes)
+      $points.text(parseInt($points.text())+1)
       },
       error:function(data) {
+
       }
     };
     $.ajax(options);

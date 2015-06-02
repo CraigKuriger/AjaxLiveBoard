@@ -14,7 +14,7 @@
   <% @posts.each do |post| %>
 
     <article id="<%= post.id %>">
-      <a href='/posts/<%= post.id %>/vote' class="fa fa-sort-asc vote-button"></a>
+      <a href='/posts/<%= post.id %>/vote' class="fa fa-sort-asc vote-button"></a>git
       <h2><a href='/posts/<%= post.id %>'><%= post.title %></a></h2>
       <p>
         <span class='points'><%= post.points %></span>
