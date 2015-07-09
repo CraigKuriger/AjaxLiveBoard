@@ -1,36 +1,21 @@
-/* Initial body */
 body {
     counter-reset:section;
   background-color: #F6F6EF;
+/*  background: #202024 url('http://www.helsinkijazzunderground.com/wp-content/themes/fredriksson-music/images/paper_background.jpg');*/
   max-width: 700px;
   left: 0;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
   font-family: 'Roboto';
-
-
 }
 
-
-/* Initial menu */
 .menu {
   background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
-  left: -285px;  /* start off behind the scenes */
+  left: -285px;  
   height: 100%;
   position: fixed;
   width: 285px;
-}
-
-/* Basic styling */
-
-.jumbotron {
-/*  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); */
-  height: 100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
 }
 
 .menu ul {
@@ -50,16 +35,22 @@ body {
 }
 
 .menu a {
-  color: black;
+  color: #8C8C8C;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
+.menu a:hover {
+  color: #B2B2B2;
+}
+
 .icon-close {
+  color: #8C8C8C;
   cursor: pointer;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 5px;
 }
 
 .icon-menu {
@@ -81,7 +72,6 @@ body {
 
 
 header {
-  background-color: #007FFF;
   padding: 5px 5px;
 }
 
@@ -106,7 +96,7 @@ header p a:nth-child(n + 2):before {
 }
 
 article {
-  margin: 5px 5px;
+    margin: 5px 5px;
 }
 
 article a.vote-button {
@@ -171,16 +161,17 @@ article p a.delete:before {
 
 }
 
+
 form {
   margin: 15px 30px;
 }
 
 form#posts input[type='text'] {
   width: 200px;
-  margin-left: 20px;
+  margin-left: 5px;
   font-size: 10pt;
-  height: 17px;
-
+  height: 22px;
+  margin-bottom: 10px;
 }
 
 form#posts input[type='submit'] {
@@ -188,7 +179,4 @@ form#posts input[type='submit'] {
   margin-left: 5px;
   border-width: 1px;
   font-weight: bold;
-  background-color: #007FFF;
-
-
 }

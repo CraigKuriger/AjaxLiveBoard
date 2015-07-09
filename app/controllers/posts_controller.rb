@@ -5,10 +5,9 @@ class PostsController < ApplicationController
     @list = []
     @posts.each do |p|
     @list << p
-    @list.sort! do |x,y| 
-      y.votes.count <=> x.votes.count 
-    end
-    pp @list
+      @list.sort! do |x,y| 
+        y.votes.count <=> x.votes.count 
+      end
     end
   end
   def create

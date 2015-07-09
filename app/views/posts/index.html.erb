@@ -1,76 +1,57 @@
 <html>
   <head>
- <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <div class="container">
+      <div class="menu">
+        
+        <div class="icon-close">
+          <i class="fa fa-times fa-3x"></i>
+        </div>
 
-    <div class="menu">
-      
-      <!-- Menu icon -->
-      <div class="icon-close">
-        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
 
-      <!-- Menu -->
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+        <div class="icon-menu">
+          <i class="fa fa-bars"></i>
+          Menu
+        </div>
 
-    <!-- Main body -->
-    <div class="jumbotron">
+      <header>
+        <h1>VoteBoard</h1>
+      </header>
 
-      <div class="icon-menu">
-        <i class="fa fa-bars"></i>
-        Menu
+
+      <div class='post-container'>
+        <% @list.each do |post| %>
+
+          <article id="<%= post.id %>">
+            <a href='/posts/<%= post.id %>/vote'><i class="fa fa-thumbs-up"></i></a>
+            <h2><a href='/posts/<%= post.id %>'><%= post.title %></a></h2>
+            <p>
+              <span class='points'><%= post.points %></span>
+              <span class='username'><%= post.username %></span>
+              <span class='timestamp'><%= post.time_since_creation %></span>
+              <a class="delete" href='/posts/<%= post.id %>'></a>
+            </p>
+          </article>
+
+        <% end %>
       </div>
-
-    <div class="menu">
-      <div class="icon-close">
-        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-      </div>
-
-
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-    <header>
-      <h1>VoteBoard</h1>
-    </header>
-
-
-    <div class='post-container'>
-      <% @list.each do |post| %>
-
-        <article id="<%= post.id %>">
-          <a href='/posts/<%= post.id %>/vote' class="fa fa-sort-asc vote-button"></a>
-          <h2><a href='/posts/<%= post.id %>'><%= post.title %></a></h2>
-          <p>
-            <span class='points'><%= post.points %></span>
-            <span class='username'><%= post.username %></span>
-            <span class='timestamp'><%= post.time_since_creation %></span>
-            <a class="delete" href='/posts/<%= post.id %>'></a>
-          </p>
-        </article>
-
-      <% end %>
-    </div>
-
     <form id="posts" method="post" action="/posts">
-      <input type="text" name="title" placeholder="title">
-      <input type="text" name="username" placeholder="name">
-      <input type="submit" value="submit new post" class="btn">
+      <input type="text" name="title" placeholder="title"><br>
+      <input type="text" name="username" placeholder="name"><br>
+      <input type="submit" value="Submit" class="btn">
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </div>
   </body>
 </html>
