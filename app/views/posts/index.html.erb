@@ -50,7 +50,7 @@
 
 
     <div class='post-container'>
-      <% @posts.each do |post| %>
+      <% @list.each do |post| %>
 
         <article id="<%= post.id %>">
           <a href='/posts/<%= post.id %>/vote' class="fa fa-sort-asc vote-button"></a>

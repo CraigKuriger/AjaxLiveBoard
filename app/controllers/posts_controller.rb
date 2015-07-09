@@ -3,11 +3,11 @@ class PostsController < ApplicationController
   def index
     @posts = Post.all
     @list = []
-    @posts.sort_by do |p|
-    pp "X" * 50      
-    pp p.votes.length
+    @posts.each do |p|
     @list << p
-    pp "X" * 50
+    @list.sort! do |x,y| 
+      y.votes.count <=> x.votes.count 
+    end
     pp @list
     end
   end
