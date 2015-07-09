@@ -2,6 +2,14 @@ class PostsController < ApplicationController
   protect_from_forgery with: :null_session
   def index
     @posts = Post.all
+    @list = []
+    @posts.sort_by do |p|
+    pp "X" * 50      
+    pp p.votes.length
+    @list << p
+    pp "X" * 50
+    pp @list
+    end
   end
   def create
     @post = Post.create( title: params[:title],

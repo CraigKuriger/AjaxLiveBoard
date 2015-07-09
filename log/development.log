@@ -40596,3 +40596,1647 @@ Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f00749946141
 
 
 Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:51:25 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:54:18 +1200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.6ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 472ms (Views: 449.4ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:54:19 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:54:19 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:54:19 +1200
+
+
+Started GET "/assets/application.self-2e1dbc1dadc6bdd9d4606b7784c78a660c3cb9e51262716f4d601811b2546884.css?body=1" for ::1 at 2015-07-09 12:54:19 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:54:19 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:54:19 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:54:58 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-a31f23b49b62a90dc0a0aca21e4b384fe919a86ea6a96185449a4419f0dd92b3.css?body=1" for ::1 at 2015-07-09 12:54:58 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:54:58 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:54:58 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:54:58 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:54:58 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:54:58 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:55:08 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-949dc9417685e911ce70d2764a9c084ddace369972230b92111ced302de2bde6.css?body=1" for ::1 at 2015-07-09 12:55:08 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:55:08 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:55:08 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:55:08 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:55:08 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:55:08 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:55:17 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-cb0394697b31806f8b4d661e6ec9bb787751ffd022608658d50f0d52ae6a2116.css?body=1" for ::1 at 2015-07-09 12:55:17 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:55:17 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:55:17 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:55:17 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:55:17 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:55:17 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:55:48 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 98ms (Views: 96.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-129a154a143a62f8e247a14c546da6980e6f36487e4da16a9ff8a40e9a47cd0f.css?body=1" for ::1 at 2015-07-09 12:55:48 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:55:48 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:55:48 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:55:48 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:55:48 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:55:48 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:56:02 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:56:02 +1200
+
+
+Started GET "/assets/application.self-4a46366fa1ae88a675d219fd86b899b881f237157a09a482f057a49a41bc968e.css?body=1" for ::1 at 2015-07-09 12:56:02 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:56:02 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:56:02 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:02 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:02 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:56:13 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 12:56:13 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:56:13 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:56:13 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:13 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:13 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:56:13 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:56:51 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 12:56:51 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:56:51 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:51 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:56:51 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:51 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:56:51 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:56:53 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 12:56:53 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:56:53 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:56:53 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:56:53 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:53 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:56:53 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:57:40 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.4ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:57:41 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:57:41 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:57:41 +1200
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 12:57:41 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:57:41 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:57:41 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 12:58:16 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  Rendered posts/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 12:58:16 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:58:16 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:58:16 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:58:16 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:58:16 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:58:16 +1200
+
+
+Started POST "/posts" for ::1 at 2015-07-09 12:59:01 +1200
+Processing by PostsController#create as */*
+  Parameters: {"title"=>"dfdf", "username"=>"dfdfdf"}
+Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "username", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["title", "dfdf"], ["username", "dfdfdf"], ["created_at", "2015-07-09 00:59:01.701601"], ["updated_at", "2015-07-09 00:59:01.701601"]]
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 12:59:02 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  Rendered posts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:59:03 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:59:03 +1200
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 12:59:03 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:59:03 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:59:03 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:59:03 +1200
+
+
+Started POST "/posts" for ::1 at 2015-07-09 12:59:10 +1200
+Processing by PostsController#create as */*
+  Parameters: {"title"=>"fdff", "username"=>"fdff"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("title", "username", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "fdff"], ["username", "fdff"], ["created_at", "2015-07-09 00:59:10.013894"], ["updated_at", "2015-07-09 00:59:10.013894"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:11 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 84ms (Views: 0.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:11 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:11 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:11 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:12 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:12 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:12 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:12 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:13 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:13 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:13 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:13 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:13 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:13 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:15 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:15 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:15 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:15 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"  [["value", 1], ["post_id", 18]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posts/18/vote" for ::1 at 2015-07-09 12:59:16 +1200
+Processing by PostsController#vote_for as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "votes" ("value", "post_id") VALUES ($1, $2) RETURNING "id"[0m  [["value", 1], ["post_id", 18]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 12:59:16 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 12:59:16 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 12:59:16 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 12:59:16 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:59:16 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 12:59:16 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 12:59:16 +1200
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mPost Load (0.6ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1
+  [1m[36mVote Load (0.4ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+
+
+Started GET "/" for ::1 at 2015-07-09 13:07:06 +1200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `each' for #<Class:0x007f98db48a190>):
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (21.9ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (49.6ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:07:36 +1200
+
+SyntaxError (/Users/Craig/Documents/EDA/AjaxLiveBoard/app/controllers/posts_controller.rb:5: syntax error, unexpected &, expecting keyword_end
+    &list = @posts.each do |p|
+     ^):
+  app/controllers/posts_controller.rb:5: syntax error, unexpected &, expecting keyword_end
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.7ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:07:51 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.7ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (75.1ms)
+Completed 200 OK in 383ms (Views: 368.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:07:51 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:07:51 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:07:51 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:07:51 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:07:51 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:07:51 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:08:16 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.3ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 48ms (Views: 18.7ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:08:16 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:08:16 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:08:16 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:08:16 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:08:16 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:08:16 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:08:26 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 27ms (Views: 20.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:08:26 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:08:26 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:08:26 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:08:26 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:08:26 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:08:26 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:08:48 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 42ms (Views: 19.5ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:08:48 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:08:48 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:08:48 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:08:48 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:08:48 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:08:48 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:09:37 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.4ms)
+
+NoMethodError (undefined method `sort' for #<Post:0x007f98e19a52c8>):
+  app/controllers/posts_controller.rb:7:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:10:45 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 119ms (Views: 92.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:10:46 +1200
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:10:46 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:10:46 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:10:46 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:10:46 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:10:46 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:11:06 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 2.3ms)
+
+NoMethodError (undefined method `reverse' for 14:Fixnum):
+  app/controllers/posts_controller.rb:7:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (20.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (44.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:11:19 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 2.2ms)
+
+NoMethodError (undefined method `desc' for 14:Fixnum):
+  app/controllers/posts_controller.rb:7:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:11:59 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 39ms (Views: 17.7ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:11:59 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:11:59 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:11:59 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:11:59 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:11:59 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:11:59 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:12:19 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 2.5ms)
+
+NoMethodError (undefined method `reverse!' for 14:Fixnum):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (88.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:12:28 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 2.1ms)
+
+NoMethodError (undefined method `reverse' for 14:Fixnum):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.8ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:12:32 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.3ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `reverse' for 14:Fixnum):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:13:08 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.3ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 3.0ms)
+
+NoMethodError (undefined method `reverse' for 14:Fixnum):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:13:37 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 50ms (Views: 23.8ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:13:37 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:13:37 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:13:37 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:13:37 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:13:37 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:13:37 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:14:14 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 41ms (Views: 20.9ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:14:14 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:14:14 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:14:14 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:14:14 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:14:14 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:14:14 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:15:29 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 40ms (Views: 17.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:15:30 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:15:30 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:15:30 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:15:30 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:15:30 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:15:30 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:15:59 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 25ms (Views: 16.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:15:59 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:15:59 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:15:59 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:15:59 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:15:59 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:15:59 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:17:23 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 62ms (Views: 33.6ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:17:23 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:17:23 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:17:23 +1200
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:17:23 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:17:23 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:17:23 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:18:22 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 51ms (Views: 17.5ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:18:22 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:18:22 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:18:22 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:18:22 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:18:22 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:18:22 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:18:44 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 2.2ms)
+
+NoMethodError (undefined method `desc' for #<Post::ActiveRecord_Relation:0x007f98dfec3608>):
+  app/controllers/posts_controller.rb:9:in `block in index'
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (104.6ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:20:01 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 46ms (Views: 17.1ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:20:01 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:20:01 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:20:01 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:01 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:20:01 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:01 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:20:15 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 101ms (Views: 80.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:20:16 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:20:16 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:16 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:16 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:20:16 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:20:16 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:20:57 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 41ms (Views: 17.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:20:57 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:20:57 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:20:57 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:57 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:20:57 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:57 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:20:59 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 24ms (Views: 16.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:20:59 +1200
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:20:59 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:20:59 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:59 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:20:59 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:20:59 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:21:52 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.4ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 46ms (Views: 21.3ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:21:53 +1200
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:21:53 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:21:53 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:21:53 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:21:53 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:21:53 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:22:31 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 44ms (Views: 20.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:22:32 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:22:32 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:22:32 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:22:32 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:22:32 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:22:32 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:23:53 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.5ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 50ms (Views: 19.8ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:23:53 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:23:53 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:23:53 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:23:53 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:23:53 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:23:53 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:25:38 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 112ms (Views: 85.3ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:25:38 +1200
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:25:38 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:25:38 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:25:38 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:25:38 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:25:38 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:28:53 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.9ms)
+
+NoMethodError (undefined method `votes' for nil:NilClass):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (66.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:29:33 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 2.7ms)
+
+NoMethodError (undefined method `votes' for nil:NilClass):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Craig/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/" for ::1 at 2015-07-09 13:30:07 +1200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35mVote Load (1.9ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35mVote Load (0.3ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 15]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 16]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 17]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 56ms (Views: 18.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:30:07 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:30:07 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:30:07 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:30:07 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:30:07 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:30:07 +1200
+
+
+Started GET "/" for ::1 at 2015-07-09 13:31:51 +1200
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35mVote Load (0.3ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  [1m[35m (0.3ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 15]]
+  [1m[36m (0.3ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 16]]
+  [1m[35m (0.2ms)[0m  SELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1  [["post_id", 17]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("votes"."value") FROM "votes" WHERE "votes"."post_id" = $1[0m  [["post_id", 18]]
+  Rendered posts/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 64ms (Views: 27.6ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/application.self-d95b4fedc2ec62dd56839b7f99578dc566cc26f71ecf2ee8563a99fe1cf2caff.css?body=1" for ::1 at 2015-07-09 13:31:51 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-09 13:31:51 +1200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-09 13:31:51 +1200
+
+
+Started GET "/assets/application.self-32042c8f3360101a4441b8bb0b3173f007499461418c3f3f4fa6681f29f817d5.js?body=1" for ::1 at 2015-07-09 13:31:51 +1200
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:31:51 +1200
+
+
+Started GET "/assets/votes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-09 13:31:51 +1200

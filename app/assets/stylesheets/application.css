@@ -1,11 +1,17 @@
 /* Initial body */
 body {
+    counter-reset:section;
+  background-color: #F6F6EF;
+  max-width: 700px;
   left: 0;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
   font-family: 'Roboto';
+
+
 }
+
 
 /* Initial menu */
 .menu {
@@ -72,13 +78,7 @@ body {
   margin-right: 5px;
 }
 
-body {
-  counter-reset:section;
-  background-color: #F6F6EF;
-  font-family: Verdana;
-  max-width: 700px;
-  margin: 0 auto;
-}
+
 
 header {
   background-color: #007FFF;
