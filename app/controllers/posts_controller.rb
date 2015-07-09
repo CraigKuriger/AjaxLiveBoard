@@ -5,8 +5,7 @@ class PostsController < ApplicationController
   end
   def create
     @post = Post.create( title: params[:title],
-               username: Faker::Internet.user_name,
-               comment_count: rand(1000) )
+               username: params[:username])
     @post.save
     render json: @post.to_json
   end
