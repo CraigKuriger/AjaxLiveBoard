@@ -16,7 +16,7 @@
 
 $(document).ready(function(){
 
-    /* Push the body and the nav over by 285px over */
+    /* Show Menu*/
     $('.icon-menu').click(function() {
       $('.menu').animate({
         left: "0px"
@@ -27,7 +27,7 @@ $(document).ready(function(){
       }, 200);
     });
 
-    /* Then push them back */
+    /* Hide Menu */
     $('.icon-close').click(function() {
       $('.menu').animate({
         left: "-285px"

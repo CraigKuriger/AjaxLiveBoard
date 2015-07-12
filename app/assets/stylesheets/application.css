@@ -1,7 +1,6 @@
 body {
     counter-reset:section;
   background-color: #F6F6EF;
-/*  background: #202024 url('http://www.helsinkijazzunderground.com/wp-content/themes/fredriksson-music/images/paper_background.jpg');*/
   max-width: 700px;
   left: 0;
   margin: 0 auto;
@@ -11,7 +10,7 @@ body {
 }
 
 .menu {
-  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  background-color: black;
   left: -285px;  
   height: 100%;
   position: fixed;

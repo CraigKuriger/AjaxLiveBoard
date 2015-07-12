@@ -14,8 +14,6 @@
 
         <ul>
           <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Help</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
@@ -34,7 +32,7 @@
         <% @list.each do |post| %>
 
           <article id="<%= post.id %>">
-            <a href='/posts/<%= post.id %>/vote'><i class="fa fa-thumbs-up"></i></a>
+            <a href='/posts/<%= post.id %>/vote' class="fa fa-thumbs-up vote-button"></a>
             <h2><a href='/posts/<%= post.id %>'><%= post.title %></a></h2>
             <p>
               <span class='points'><%= post.points %></span>
